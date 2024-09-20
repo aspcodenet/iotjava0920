@@ -53,7 +53,7 @@ public class HockeyDatabase {
                 // for(int i = 0; i < players.size(); i++){
                 //     System.out.println((i+1) + ". " + players.get(i));
                 // }
-            }
+                }
         } 
 
     } 
