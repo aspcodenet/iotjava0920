@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
+        HockeyDatabase.showMenu();
         // int i = 12;
         // ArrayList<String> list = new ArrayList<>();
 
