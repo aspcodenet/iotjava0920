@@ -1,3 +1,4 @@
+import java.io.Console;
 import java.util.ArrayList;
 
 public class HockeyDatabase {
@@ -31,6 +32,27 @@ public class HockeyDatabase {
                 for(String name : players){
                     System.out.println(name);
                 }
+            }
+            else if(input.equals("2")){
+                System.out.println("***********");
+                System.err.println("UPPDATERA SPELARE");
+                System.out.println("***********");
+
+                System.out.println("Vem vill du uppdatera");
+                int counter = 1;
+                for(String name : players){
+                    System.out.println(counter + ". " + name);
+                    counter++;
+                }
+                System.out.print("Ange:");
+                int indexToUpdate = Integer.parseInt( System.console().readLine() );
+                System.out.println("Ändra " + players.get(indexToUpdate-1) + " till:");
+                String newValue = System.console().readLine();
+                players.set(indexToUpdate-1,newValue);    
+
+                // for(int i = 0; i < players.size(); i++){
+                //     System.out.println((i+1) + ". " + players.get(i));
+                // }
             }
         } 
 
