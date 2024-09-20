@@ -20,7 +20,6 @@ public class App {
         // for(int index = 0; index < list.size(); index++){
         //     System.out.println(list.get(index));
         // }
-
 //         for(String playerName : list){
 //             System.out.println(playerName);
 //         }
